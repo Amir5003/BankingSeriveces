@@ -1,0 +1,21 @@
+.welcome_page_nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: rgb(66, 70, 71);
+  color: rgb(170, 163, 155);
+}
+.nav_links {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+.nav_link {
+  color: white;
+}
+.contact {
+  display: inline-block;
+}

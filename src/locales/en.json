@@ -1,0 +1,28 @@
+{
+  "home" : {
+	  "Balance": "Balanace",
+	  "Travel" : "Travel",
+	  "Insurance" : "Insurance",
+	  "PayLoan" : "Pay Loan",
+	  "Electricity" : "Electricity",
+	  "Orders" : "Orders",
+	  "MobileRecharge" : "Mobile Recharge",
+	  "MiniStatement" : "Mini Statement",
+	  "AEPS" : "AEPS",
+	  "myStyle" : "LTR",
+	  "message" : "This is home page"
+   },
+   "footer" : {
+	   "developed" : "Developed By...",
+         "name" : "Amir Suhel",
+		 "signout" : "Logout",
+		 "myStyle" : "LTR"
+   },
+   "aeps" :{
+	   "transfer" : "Transfer",
+	   "balance" : "Balance",
+	   "select_bank" : "Select Your Bank",
+	   "aadhar_placeholder" : "Enter Aadhar Number",
+	   "transfer_placeholder" : "Enter amount to transfer"
+   }
+}

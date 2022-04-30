@@ -1,0 +1,30 @@
+.btn-container {
+  background-color: rgb(190, 207, 207);
+  margin-top: 20px;
+}
+.btn-container button {
+  border: 5px solid #7e8a02;
+  background: none;
+  padding: 20px 40px;
+  font-size: 28px;
+  font-family: monospace;
+  cursor: pointer;
+  margin: 10px;
+  color: #000000;
+  transition: 1s;
+  position: static;
+  overflow: hidden;
+}
+.btn-container button:hover {
+  color: #d1e8e8;
+  background: black;
+  border-radius: 10px;
+  font-size: 40px;
+}
+/* html {
+  direction: rtl;
+} */
+
+.RTL {
+  direction: rtl;
+}

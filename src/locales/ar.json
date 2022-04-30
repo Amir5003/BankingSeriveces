@@ -1,0 +1,28 @@
+{
+    "home" : {
+        "Balance": "الرصيد",
+        "Travel" : "يسافر",
+        "Insurance" : "تأمين",
+        "PayLoan" : "قرض السداد",
+        "Electricity" : "كهرباء",
+        "Orders" : "ترتيب",
+        "MobileRecharge" : "شاحن النقال",
+        "MiniStatement" : "بيان مصغر",
+        "AEPS" : "AEPS",
+        "myStyle" : "RTL",
+        "message" : "هذه هي الصفحة الرئيسية"
+     },
+     "footer" : {
+         "developed" : "...طورت بواسطة",
+         "name" : "أمير سهيل",
+         "signout" : "خروج",
+         "myStyle" : "RTL"
+     },
+     "aeps" :{
+         "transfer" : "نقل",
+         "balance" : "الرصيد",
+         "select_bank" : "اختر البنك الذي تتعامل معه",
+         "aadhar_placeholder" : "أدخل رقم Aadhar",
+         "transfer_placeholder" : "أدخل المبلغ المراد تحويله"
+     }
+  }

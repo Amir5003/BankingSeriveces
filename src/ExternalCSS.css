@@ -1,0 +1,176 @@
+.login_container {
+  background-size: cover;
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+  position: fixed;
+
+  background-size: cover;
+  background-position: center;
+}
+.loginContainer .formContainer {
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+}
+.loginContainer input {
+  border: none;
+  background: none;
+  color: whitesmoke;
+  font-size: 20px;
+  width: 80%;
+  float: left;
+  margin: 10px 0;
+}
+.login_error {
+  text-align: left;
+  color: red;
+}
+/* .loginContainer button {
+  margin-top: 5px;
+  width: 100%;
+  background: none;
+  border: 2px solid #3c4a06;
+  color: azure;
+  padding: 5px;
+  font-size: 20px;
+  cursor: pointer;
+} */
+/* .loginContainer button:hover {
+  background: #3c4a06;
+} */
+.aeps_container {
+  background-color: #fff;
+  width: 600px;
+  padding: 15px;
+  margin: 25px auto 0;
+  border-radius: 10%;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.aeps_container h2 {
+  background-color: lightblue;
+  color: #3c4a06;
+  font-size: 24px;
+  padding: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+  border: 2px solid #333;
+}
+.aeps_form {
+  align-items: center;
+}
+.radio {
+  display: none;
+}
+.input_box label {
+  width: 46%;
+  padding: 10px;
+  background-color: #fcfcfc;
+  display: inline-block;
+  /* float: left; */
+  text-align: center;
+  border: 1px solid #c0bfbf;
+}
+.radio:checked + label {
+  background-color: #3c4a06;
+  color: #fff;
+  transition: 0.5s;
+}
+.input_box label:first-of-type {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-right: none;
+}
+.input_box label:last-of-type {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.select_bank select {
+  display: inline-block;
+  width: 100%;
+  padding: 12px;
+  background-color: #fcfcfc;
+  text-align: center;
+  font-size: 12px;
+  outline: none;
+  border: 1px solid #000033;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.select_bank h3 {
+  background-color: #fcfcfc;
+  color: #3c4a06;
+  padding: 5px;
+  margin-top: 30px;
+  text-align: center;
+  border: 1px #333;
+}
+.aadhar input {
+  padding: 14px 10px 14px 50px;
+  width: 90%;
+  margin-top: 10px;
+  font-size: 15px;
+  background-color: #fcfcfc;
+  border: 1px solid #000033;
+  outline: none;
+  letter-spacing: 1px;
+  transition: 0.3s;
+  border-radius: 3px;
+  color: #333;
+}
+.amount input {
+  padding: 14px 10px 14px 50px;
+  width: 90%;
+  margin-top: 10px;
+  font-size: 15px;
+  background-color: #fcfcfc;
+  border: 1px solid #000033;
+  outline: none;
+  letter-spacing: 1px;
+  transition: 0.3s;
+  border-radius: 3px;
+  color: #333;
+}
+.submit_btn button {
+  width: 100%;
+  background: transparent;
+  border: none;
+  background: #3c4a06;
+  color: #fff;
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: all 0.35s ease;
+}
+.submit_btn button:hover {
+  cursor: pointer;
+  background: #5eb105;
+}
+.aadhar_error {
+  color: red;
+  text-align: center;
+}
+.orders_table {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+.orders_table td,
+tr,
+th {
+  border: 1px solid black;
+  padding: 6px;
+}
+.orders_container {
+  text-align: center;
+  display: inline-flex;
+}
+.statement_container {
+  text-align: center;
+  display: inline-flex;
+}
